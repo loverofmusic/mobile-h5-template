@@ -1,2 +1,2 @@
 # mobile-h5-template
-template
+npm run dev:server
