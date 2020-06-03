@@ -5,10 +5,11 @@ import store from './store'
 import 'lib-flexible'
 import './assets/css/reset.css'
 
-import { Dialog, DatePicker } from '@nutui/nutui';
+import { Dialog, DatePicker, LuckDraw } from '@nutui/nutui';
 
 Dialog.install(Vue);
 DatePicker.install(Vue);
+LuckDraw.install(Vue);
 
 // Vue.config.productionTip = false
 

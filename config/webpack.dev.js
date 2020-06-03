@@ -8,6 +8,7 @@ const devConfig = {
   devServer: {
     contentBase: join(__dirname, 'dist'), //服务访问目录
     port: 9000,
+    host: '192.168.124.29',
     // proxy: {
     //     '/api': 'localhost:8888'
     // }
